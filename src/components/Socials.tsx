@@ -13,7 +13,7 @@ const SocialIcon = ({ href, Icon }: SocialIconProps) => (
     target="_blank"
     className={cn(
       buttonVariants({ variant: "outline" }),
-      "group px-3 transition-shadow duration-200 hover:shadow-[0_0_20px_10px_hsl(327_100%_45%/0.2)] hover:rounded-full"
+      "group p-3 transition-shadow duration-200 hover:shadow-[0_0_20px_10px_hsl(327_100%_45%/0.2)] hover:rounded-full"
     )}
   >
     <Icon className="h-6 transition-colors duration-200 group-hover:text-primary" />

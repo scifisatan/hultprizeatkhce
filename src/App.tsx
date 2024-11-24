@@ -1,21 +1,18 @@
-import HeroSection from "@/sections/HeroSection";
-import Footer from "@/sections/Footer";
-import FAQSection from "./sections/FAQSection";
-import ContactSection from "./sections/ContactSection";
-import PastYearSection from "./sections/PastYearSection";
-import Navbar from "./sections/Navbar";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { routes } from '@/routes';
 
-const App = () => {
+const router = createBrowserRouter(routes, {
+    future: {
+        v7_partialHydration: true,
+    },
+});
+
+function App() {
   return (
     <>
-    <Navbar />  
-    <HeroSection />
-    <PastYearSection />
-    <FAQSection />
-    <ContactSection />
-    <Footer />
+      <RouterProvider router={router} />
     </>
   );
-};
+}
 
 export default App;

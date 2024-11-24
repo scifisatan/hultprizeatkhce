@@ -25,10 +25,9 @@ const Footer = () => (
         <FooterSection
           title="Quick Links"
           links={[
-            { href: "#about", text: "About" },
-            { href: "#previous-year", text: "Previous Year" },
-            { href: "#this-year", text: "This Year" },
-            { href: "#faq", text: "FAQ" },
+            { href: "/about", text: "About" },
+            { href: "/archive", text: "Archive" },
+            { href: "https://hultprizefoundation.notion.site/2025-Competitors-Guidebook-1115dd17a06b80c7a3c8ca764b59164b", text: "Resources" },
           ]}
         />
         <FooterSection
@@ -42,15 +41,15 @@ const Footer = () => (
         <FooterSection
           title="Partners"
           links={[
-            { href: "#", text: "Hult Prize Foundation" },
-            { href: "#", text: "Khwopa College" },
+            { href: "https://www.hultprize.org/", text: "Hult Prize Foundation" },
+            { href: "https://www.khwopa.edu.np", text: "Khwopa College" },
           ]}
         />
         <FooterSection
           title="Legal"
           links={[
             { href: "#", text: "Terms & Conditions" },
-            { href: "#", text: "Privacy Policy" },
+            { href: "#", text: "Code of Conduct" },
           ]}
         />
       </div>

@@ -1,7 +1,7 @@
 import Section from "@/components/Section";
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Socials from "@/components/sections/HeroSection/Socials";
+import Socials from "@/components/Socials";
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="mx-auto flex max-w-6xl flex-col items-center">
         <div className="z-10 flex flex-col items-center gap-6 text-center">
           <img
-            src="https://www.shadcnblocks.com/images/block/block-1.svg"
+            src="/logo.png"
             alt="logo"
             className="h-16"
           />
