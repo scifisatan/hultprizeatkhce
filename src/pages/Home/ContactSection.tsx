@@ -27,7 +27,7 @@ const ContactFormInput = ({ type, placeholder }: ContactFormInputProps) => (
 );
 
 const ContactSection = () => (
-  <section id="contact" className="py-16 bg-secondary/50">
+  <section id="contact" className="py-16 bg-background/80">
     <div className="max-w-5xl mx-auto px-4">
       <h2 className="text-3xl font-bold mb-8 text-center">Contact Us</h2>
       <div className="grid md:grid-cols-2 gap-8">
@@ -44,7 +44,7 @@ const ContactSection = () => (
             rows={4}
             className="w-full p-2 rounded-md border border-input bg-background"
           />
-          <Button className="w-full">Send Message</Button>
+          <Button className=''>Send Message</Button>
         </form>
       </div>
     </div>

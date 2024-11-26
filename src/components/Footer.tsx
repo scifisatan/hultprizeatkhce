@@ -27,7 +27,7 @@ const Footer = () => (
           links={[
             { href: "/about", text: "About" },
             { href: "/archive", text: "Archive" },
-            { href: "https://hultprizefoundation.notion.site/2025-Competitors-Guidebook-1115dd17a06b80c7a3c8ca764b59164b", text: "Resources" },
+            { href: "https://www.hult.edu/hp2025/", text: "Resources" },
           ]}
         />
         <FooterSection
@@ -42,7 +42,7 @@ const Footer = () => (
           title="Partners"
           links={[
             { href: "https://www.hultprize.org/", text: "Hult Prize Foundation" },
-            { href: "https://www.khwopa.edu.np", text: "Khwopa College" },
+            { href: "https://www.khwopa.edu.np", text: "Khwopa College of Engineering" },
           ]}
         />
         <FooterSection

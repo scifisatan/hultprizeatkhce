@@ -13,7 +13,7 @@ const NavLinks = ({
   const links = [
     { href: '/about', label: 'About' },
     { href: '/archive', label: 'Archive' },
-    { href: 'https://hultprizefoundation.notion.site/2025-Competitors-Guidebook-1115dd17a06b80c7a3c8ca764b59164b', label: 'Resources' }, 
+    { href: 'https://www.hult.edu/hp2025/', label: 'Resources' }, 
   ];
 
   const handleClick = () => {
