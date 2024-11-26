@@ -1,6 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 
-const AnimatedCounter = ({ endValue, duration = 2000, prefix = '', suffix = '' }) => {
+interface AnimatedCounterProps {
+  endValue: number;
+  duration?: number;
+  prefix?: string;
+  suffix?: string;
+}
+
+const AnimatedCounter = ({ endValue, duration = 2000, prefix = '', suffix = '' }: AnimatedCounterProps) => {
   const [count, setCount] = useState(0);
   const countRef = useRef(count);
   const [isVisible, setIsVisible] = useState(false);
@@ -16,13 +23,14 @@ const AnimatedCounter = ({ endValue, duration = 2000, prefix = '', suffix = '' }
       { threshold: 0.1 }
     );
 
-    if (elementRef.current) {
-      observer.observe(elementRef.current);
+    const currentElement = elementRef.current;
+    if (currentElement) {
+      observer.observe(currentElement);
     }
 
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      if (currentElement) {
+        observer.unobserve(currentElement);
       }
     };
   }, []);
@@ -74,10 +82,10 @@ const StatsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            { value: 100, label: "Annual Participants", suffix: "+" },
-            { value: 8, label: "Projects", suffix: "" },
-            { value: 100, label: "Alumni", suffix: "+" },
-            { value: 4, label: "Experts", suffix: "" },
+            { value: 100, label: "Annual Participants", prefix: "", suffix: "+" },
+            { value: 8, label: "Projects", prefix: "", suffix: "" },
+            { value: 100, label: "Alumni", prefix: "", suffix: "+" },
+            { value: 4, label: "Experts", prefix: "", suffix: "" },
           ].map((stat, index) => (
             <div 
               key={index}
