@@ -6,7 +6,7 @@ import Socials from "@/components/Socials";
 const HeroSection = () => {
   return (
     <Section id='home'>
-      <div className="mx-auto flex max-w-6xl flex-col items-center">
+      <div className="mx-auto flex max-w-6xl flex-col items-center bg-secondary/10">
         <div className="z-10 flex flex-col items-center gap-6 text-center">
           <img
             src="/logo.png"

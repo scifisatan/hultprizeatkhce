@@ -33,7 +33,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <section id="faq" className="py-16 bg-secondary/50">
+    <section id="faq" className="py-16 bg-secondary/10">
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
         <Accordion type="single" collapsible>

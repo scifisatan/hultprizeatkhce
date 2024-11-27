@@ -2,8 +2,8 @@ import { ArrowRight } from "lucide-react";
 
 const ResourcesSection = () => {
     return (
-        <div className=" bg-secondary/10 py-16">
-            <div className=" mx-auto px-4">
+        <div className=" bg-secondary/80 py-16">
+            <div className="max-w-4xl mx-auto px-4">
                 <div className="text-center mb-12">
                 </div>
 

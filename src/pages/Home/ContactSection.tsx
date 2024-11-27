@@ -27,8 +27,8 @@ const ContactFormInput = ({ type, placeholder }: ContactFormInputProps) => (
 );
 
 const ContactSection = () => (
-  <section id="contact" className="py-16 bg-background/80">
-    <div className="max-w-5xl mx-auto px-4">
+  <section id="contact" className="py-16 bg-secondary/80">
+    <div className="max-w-3xl mx-auto px-4">
       <h2 className="text-3xl font-bold mb-8 text-center">Contact Us</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="space-y-6">

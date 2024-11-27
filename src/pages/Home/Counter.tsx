@@ -69,8 +69,8 @@ const AnimatedCounter = ({ endValue, duration = 2000, prefix = '', suffix = '' }
 
 const StatsSection = () => {
   return (
-    <section className="bg-secondary/50 py-16">
-      <div className=" mx-auto px-4">
+    <section className="bg-secondary/10 py-16">
+      <div className=" max-w-5xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Our Global Impact
@@ -82,10 +82,10 @@ const StatsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            { value: 100, label: "Annual Participants", prefix: "", suffix: "+" },
-            { value: 8, label: "Projects", prefix: "", suffix: "" },
-            { value: 100, label: "Alumni", prefix: "", suffix: "+" },
-            { value: 4, label: "Experts", prefix: "", suffix: "" },
+            { value: 117, label: "Participants", prefix: "", suffix: "+" },
+            { value: 27, label: "Teams", prefix: "", suffix: "" },
+            { value: 27, label: "Projects", prefix: "", suffix: "+" },
+            { value: 12, label: "Finalist", prefix: "", suffix: "" },
           ].map((stat, index) => (
             <div 
               key={index}
