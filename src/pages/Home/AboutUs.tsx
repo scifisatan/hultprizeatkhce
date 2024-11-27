@@ -23,7 +23,7 @@ const AboutUsSection = () => {
             <Button
               size="lg"
               className="group bg-primary text-primary-foreground"
-              onClick={() => (window.location.href = "/about")}
+              onClick={() => (window.location.href = "https://www.hultprize.org/about-us/")}
             >
               Learn More
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />

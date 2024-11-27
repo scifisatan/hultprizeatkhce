@@ -5,7 +5,7 @@ import LoadingSpinner from '@/components/LoadingSpinner';
 
 // Lazy load page components
 const Home = lazy(() => import('@/pages/Home'));
-const About = lazy(() => import('@/pages/About'));
+// const About = lazy(() => import('@/pages/About'));
 // const Archive = lazy(() => import('@/pages/Archive'));
 // const YearArchive = lazy(() => import('@/pages/YearArchive'));
 // const Resources = lazy(() => import('@/pages/Resources'));
@@ -29,10 +29,10 @@ export const routes: RouteObject[] = [
         index: true,
         element: withSuspense(Home),
       },
-      {
-        path: 'about',
-        element: withSuspense(About),
-      },
+      // {
+      //   path: 'about',
+      //   element: withSuspense(About),
+      // },
       // {
       //   path: 'archive',
       //   children: [

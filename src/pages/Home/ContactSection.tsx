@@ -44,7 +44,7 @@ const ContactSection = () => (
             rows={4}
             className="w-full p-2 rounded-md border border-input bg-background"
           />
-          <Button className=''>Send Message</Button>
+          <Button className="transition-transform transform hover:scale-105">Send Message</Button>
         </form>
       </div>
     </div>

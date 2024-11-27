@@ -12,7 +12,7 @@ const NavLinks = ({
 }) => {
   const links = [
     { href: '/about', label: 'About' },
-    { href: '/archive', label: 'Archive' },
+    // { href: '/archive', label: 'Archive' },
     { href: 'https://www.hult.edu/hp2025/', label: 'Resources' }, 
   ];
 
@@ -34,7 +34,10 @@ const NavLinks = ({
           {label}
         </a>
       ))}
-      <Button>Register Now</Button>
+      <a href="https://www.hultprize.org/startup-pre-registration-is-now-open/">
+      <Button className="transition-transform transform hover:scale-105">Register Now</Button>
+      </a>
+      
     </>
   );
 };

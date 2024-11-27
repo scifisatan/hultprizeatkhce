@@ -4,12 +4,9 @@ const ResourcesSection = () => {
     return (
         <div className=" bg-secondary/80 py-16">
             <div className="max-w-4xl mx-auto px-4">
-                <div className="text-center mb-12">
-                </div>
-
                 <div className="max-w-4xl mx-auto">
                     <a
-                        href="https://www.hult.edu/hp2025/"
+                        href="https://www.hultprize.org/2024-challenge-unlimited/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all group border border-border relative overflow-hidden"

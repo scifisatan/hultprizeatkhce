@@ -2,18 +2,18 @@ const CampusDirectorMessage = () => {
     return (
       <section className="bg-secondary/10 py-16">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-8">
+          <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-4">
             {/* Campus Director Image */}
-            <div className="lg:w-1/2 flex justify-center lg:justify-start">
+            <div className="lg:w-1/2 flex justify-center">
               <img
-                src="/cd.jpg"
+                src="/cd.webp"
                 alt="Campus Director"
-                className="w-full h-full lg:w-full lg:h-full rounded-md object-cover shadow-lg border border-border"
+                className="w-80 h-96 lg:w-80 lg:h-96 rounded-lg object-cover shadow-lg border border-border"
               />
             </div>
   
             {/* Message Content */}
-            <div className="lg:w-1/2 space-y-6 pt-20">
+            <div className="lg:w-1/2 space-y-6 pt-10 text-center md:text-start">
               <h2 className="text-4xl font-semibold text-primary">
                 Adarsha Shrestha
               </h2>

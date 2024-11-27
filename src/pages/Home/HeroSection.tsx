@@ -23,10 +23,10 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="mt-4 flex justify-center gap-2">
-            <a href="https://google.com" target="_blank" className="hover:shadow-radial-blur">
+            <a href="https://www.hultprize.org/startup-pre-registration-is-now-open/" target="_blank" className="hover:shadow-radial-blur">
               <Button className="transition-transform transform hover:scale-105">Register</Button>
             </a>
-            <a href="https://google.com" target="_blank" className="hover:shadow-radial-blur">
+            <a href="https://bento.me/hultatkhce" target="_blank" className="hover:shadow-radial-blur">
               <Button variant="outline" className="transition-transform transform hover:scale-105">
                 Learn more <ExternalLink className="ml-2 h-4" />
               </Button>

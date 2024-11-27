@@ -25,8 +25,8 @@ const Footer = () => (
         <FooterSection
           title="Quick Links"
           links={[
-            { href: "/about", text: "About" },
-            { href: "/archive", text: "Archive" },
+            // { href: "/about", text: "About" },
+            // { href: "/archive", text: "Archive" },
             { href: "https://www.hult.edu/hp2025/", text: "Resources" },
           ]}
         />
