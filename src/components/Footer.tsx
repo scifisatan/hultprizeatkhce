@@ -33,9 +33,9 @@ const Footer = () => (
         <FooterSection
           title="Connect"
           links={[
-            { href: "#", text: "Facebook" },
-            { href: "#", text: "Instagram" },
-            { href: "#", text: "LinkedIn" },
+            // { href: "#", text: "Facebook" },
+            { href: "https://www.instagram.com/hultatkhce/", text: "Instagram" },
+            { href: "https://www.linkedin.com/company/hultatkhce", text: "LinkedIn" },
           ]}
         />
         <FooterSection
@@ -48,8 +48,8 @@ const Footer = () => (
         <FooterSection
           title="Legal"
           links={[
-            { href: "#", text: "Terms & Conditions" },
-            { href: "#", text: "Code of Conduct" },
+            { href: "https://www.hultprize.org/terms-and-conditions/", text: "Terms & Conditions" },
+            { href: "https://www.hultprize.org/code-of-conduct/", text: "Code of Conduct" },
           ]}
         />
       </div>

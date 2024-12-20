@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react"
+import {  Instagram, Linkedin } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 
@@ -27,7 +27,7 @@ const Socials = () => {
         Connect with us on:
       </p>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <SocialIcon href="https://facebook.com/hultatkhce" Icon={Facebook} />
+        {/* <SocialIcon href="https://facebook.com/hultatkhce" Icon={Facebook} /> */}
         <SocialIcon href="https://instagram.com/hultatkhce" Icon={Instagram} />
         <SocialIcon href="https://linkedin.com/company/hultatkhce" Icon={Linkedin} />
       </div>

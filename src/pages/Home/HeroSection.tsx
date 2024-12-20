@@ -3,6 +3,7 @@ import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Socials from "@/components/Socials";
 
+
 const HeroSection = () => {
   return (
     <Section id='home'>
@@ -23,7 +24,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="mt-4 flex justify-center gap-2">
-            <a href="https://www.hultprize.org/startup-pre-registration-is-now-open/" target="_blank" className="hover:shadow-radial-blur">
+            <a href="https://forms.gle/UDJ2ikLhLjA8NTAG6" target="_blank" className="hover:shadow-radial-blur">
               <Button className="transition-transform transform hover:scale-105">Register</Button>
             </a>
             <a href="https://bento.me/hultatkhce" target="_blank" className="hover:shadow-radial-blur">

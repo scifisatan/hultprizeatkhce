@@ -73,10 +73,10 @@ const StatsSection = () => {
       <div className=" max-w-5xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Our Global Impact
+            Our Impact
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Since 2009, we've been empowering students worldwide to create positive change through social entrepreneurship.
+            Since 2023n, we've been empowering students worldwide to create positive change through social entrepreneurship.
           </p>
         </div>
 
