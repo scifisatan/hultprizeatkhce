@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs";
 import CD from "./CD";
 import Resource from "./Resource";
 import Counter from "./Counter";
+import SponsorsSection from "@/components/Sponsors";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
     <CD/>
     <Resource/>
     <Counter/>
+    <SponsorsSection/>
     <ContactSection/>
     <FAQSection/>
    </>
