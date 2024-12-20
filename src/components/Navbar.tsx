@@ -34,7 +34,7 @@ const NavLinks = ({
           {label}
         </a>
       ))}
-      <a href="https://www.hultprize.org/startup-pre-registration-is-now-open/">
+      <a href="https://forms.gle/UDJ2ikLhLjA8NTAG6">
       <Button className="transition-transform transform hover:scale-105">Register Now</Button>
       </a>
       
